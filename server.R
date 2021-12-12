@@ -8,9 +8,13 @@
 #
 
 library(shiny)
+install.packages("Lahman");
 library(Lahman)
+install.packages("dplyr");
 library(dplyr)
+install.packages("tidyverse");
 library(tidyverse)
+install.packages("ggplot2");
 library(ggplot2)
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
